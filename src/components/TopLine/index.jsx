@@ -1,11 +1,12 @@
 import React from 'react'
-import Item from './Item'
+
+// import styled from 'styled-components'
 
 
 const TopLine = () => {
     return (
         <div>
-            <Item />
+            <h1>Hellwo</h1>
         </div>
     )
 }
