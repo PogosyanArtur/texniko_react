@@ -1,14 +1,16 @@
 import React from 'react'
+import * as TopLine from './styled'
+import BtnBase from '../BtnBase'
+import Button from '../Button'
 
-// import styled from 'styled-components'
-
-
-const TopLine = () => {
+const index = () => {
     return (
         <div>
-            <h1>Hellwo</h1>
+            <BtnBase type="link"></BtnBase>
+            <TopLine.Item></TopLine.Item>
+            <Button type="text" label="Hellow world" />
         </div>
     )
 }
 
-export default TopLine
+export default index

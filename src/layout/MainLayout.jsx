@@ -12,17 +12,19 @@ const GlobalStyle = createGlobalStyle`
   }
   * {
       box-sizing:border-box;
-  }
+      margin:0;
+      padding:0;
+ }
 `
 
 
-const MainLayout = ( { children } ) => {
+const MainLayout = ({ children }) => {
     return (
 
         <ThemeProvider theme={ defaultTheme }>
             <React.Fragment>
                 <GlobalStyle />
-                <Header />
+                <Header />                
                 <main>
                     { children }
                 </main>

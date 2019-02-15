@@ -1,13 +1,13 @@
 import React from 'react'
-import { Container } from './styled'
+import * as Header from './styled'
 import TopLine from '../TopLine'
 
-const Header = () => {
+const HeaderIndex = () => {
     return (
-        <Container>
+        <Header.Container>
             <TopLine />
-        </Container>
+        </Header.Container>
     )
 }
 
-export default Header
+export default HeaderIndex
